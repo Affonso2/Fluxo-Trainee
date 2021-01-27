@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color:#fafafa;
+}
+
+#container-a{
+    display: flex;
+    height: 8%;
+    background-color:white; 
+
+}
+
+#primeiro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid silver;
+}
+
+#coracao{
+    width: 2%;
+    height: 45%;
+    margin: 0.5%;
+    margin-left: 50px;
+    padding: 2px;
+}
+
+#perfil{
+    width: 2%;
+    height: 55%;
+    margin: 0.5%; 
+    border-radius: 90px;
+    margin-left: 2%;
+}
+
+#origami{
+    width: 2%;
+    height: 45%;
+    margin: 6px;
+    border-radius: 10px;
+    margin-left: -11%;
+    transform: rotate(-30deg);
+    margin-top: 0%;
+}
+
+#bussola{
+    width: 2%;
+    height: 45%;
+    margin: 0.5%;
+    margin-left: 71%;
+    padding-right: 15px;
+}
+
+#navegador{
+    width: 2%;
+    height: 45%;
+    margin: 0.5%;
+    border-radius: 10px;
+    margin-left: -10%;
+
+}
+
+
+#logo{
+    width: 10;
+    height: 60%;
+    margin: 0.7%;
+    margin-left: -58%;
+
+}
+
+#pesquisar{
+    width: 13%;
+    height: 35%;
+    outline: none;
+    margin: 1%;
+    margin-left: 10%;
+    border: 0.8px solid silver
+
+}
+
+#container-b{
+    display: flex;
+    height: 85%;
+    width: 25%;
+    margin: 2%;
+    margin-left: 60%;
+    background-color:white;
+
+}
+#segundo{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    height: 12%;
+    width: 97.8%;
+    border: 0.8px solid silver;
+    padding: 4px;   
+}
+
+#perfil2{
+    width:10%;
+    height: 50%;
+    margin: 2%;
+    margin-left: 5%;
+    border-radius: 100%;
+    border: 0.01px solid silver;
+}
+
+#mais{
+    display: flex;
+    height: 30%;
+    width: 7%;
+    margin: 5%;
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+#perfil3{
+    width:10%;
+    height: 50%;
+    margin: 2%;
+    margin-left: -94%;
+    margin-top: 43%;
+    border-radius: 100%;
+    border: 0.01px solid silver;
+}
+
+#terceiro{
+    display: flex;
+    height: 21%;
+    width: 100%;
+    margin-left: -101%;
+    margin-top: 130%;
+    border: 0.01px solid silver;
+    background-color:white;
+
+}
+
+#curtida{
+    width: 8%;
+    height: 25%;
+    padding: 5px;
+    border-radius: 1px;
+
+}
+
+#comentario{
+    width: 8%;
+    height: 25%;
+    padding: 5px;
+    margin-left: 2%;
+}
+
+#encaminhar{
+    width: 8%;
+    height: 25%;
+    padding: 0.1px;
+    margin-left: 3%;
+    transform:rotate(320deg)
+}
+
+#salvar{
+    width: 20%;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: -1.7%;
+}
+
+#quarto{
+    display: flex;
+    height: 40%;
+    width: 103%;
+    margin-top: -88px;
+    margin-left: 11%;
+    background-color:white;
+    border: 0.01px solid gray
+
+}
+
+#comentar{
+    width: 100%;
+    height: 90%;
+    margin-left: 2%;
+    border: none
+}
+
+#post{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 84.5%;
+    margin: -43.3%;
+    margin-left: 9.8%;
+}
